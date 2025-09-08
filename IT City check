@@ -1,0 +1,9 @@
+import java.util.*;
+class ITCity {
+  public static void main(String[] args) {
+    String city=new Scanner(System.in).next();
+    List<String> list=Arrays.asList("Delhi","Mumbai","Kolkatta","Bangalore","Chennai","Hyderabad");
+    System.out.println(list.contains(city)?"IT City":"Not IT City");
+  }
+}
+
